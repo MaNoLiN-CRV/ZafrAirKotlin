@@ -15,6 +15,6 @@ fun ACScreen() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text("Profile Screen")
+        Text("AC Screen")
     }
 }
