@@ -1,6 +1,7 @@
 [versions]
 agp = "8.8.1"
 charty = "2.1.0"
+fuel = "2.3.1"
 kotlin = "2.0.0"
 coreKtx = "1.15.0"
 junit = "4.13.2"
@@ -16,6 +17,8 @@ navigationCompose = "2.8.6"
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 charty = { module = "com.himanshoe:charty", version.ref = "charty" }
+fuel = { module = "com.github.kittinunf.fuel:fuel", version.ref = "fuel" }
+fuel-gson = { module = "com.github.kittinunf.fuel:fuel-gson", version.ref = "fuel" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
